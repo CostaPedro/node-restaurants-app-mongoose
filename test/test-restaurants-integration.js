@@ -159,7 +159,6 @@ describe('Restaurants API resource', function() {
           resRestaurant.cuisine.should.equal(restaurant.cuisine);
           resRestaurant.borough.should.equal(restaurant.borough);
           resRestaurant.address.should.contain(restaurant.address.building);
-
           resRestaurant.grade.should.equal(restaurant.grade);
         });
     });
